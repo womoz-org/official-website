@@ -89,6 +89,7 @@ h6 {
 
 #header #logo {
   float: left;
+  
 }
 
 #intro .btn-get-started:hover {
@@ -110,7 +111,7 @@ h6 {
 
 #intro .wrapper0 .facebook {
   position: absolute;
-  left: calc(47.5% - 75px);
+  left: calc(49% - 112.5px);
   display: inline-block;
   bottom: 0;
   top: 450px;
@@ -118,7 +119,7 @@ h6 {
 
 #intro .wrapper0 .twitter {
   position: absolute;
-  left: calc(47.5%);
+  left: calc(49% - 37.5px);
   display: inline-block;
   bottom: 0;
   top: 450px;
@@ -126,7 +127,15 @@ h6 {
 
 #intro .wrapper0 .linkedin {
   position: absolute;
-  left: calc(47.5% + 75px);
+  left: calc(49% + 37.5px);
+  display: inline-block;
+  bottom: 0;
+  top: 450px;
+}
+
+#intro .wrapper0 .instagram {
+  position: absolute;
+  left: calc(49% + 112.5px);
   display: inline-block;
   bottom: 0;
   top: 450px;
@@ -189,6 +198,26 @@ h6 {
   color: rgba(243, 175, 245, 0.863);
 }
 .linkedin a:hover {
+  color: rgb(92, 39, 216);
+}
+
+.instagram {
+  color: #4c6ef5;
+  cursor: pointer;
+  text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+  transition: all ease-in-out 150ms;
+}
+
+.instagram:hover {
+  margin-top: -10px;
+  text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+  transform: translate(0, -5);
+  color: rgb(92, 123, 247);
+}
+.instagram a {
+  color: rgba(243, 175, 245, 0.863);
+}
+.instagram a:hover {
   color: rgb(92, 39, 216);
 }
 
@@ -621,22 +650,25 @@ body.mobile-nav-active #mobile-nav-toggle {
   max-width: 100%;
 }
 
-#about .content .h2 {
-  color: #333;
-  font-weight: 300;
-  font-size: 24px;
+#about .content h2 {
+  /* color: #333; */
+  color: #777;
+  font-weight: 400;
+  font-size: 17px;
 }
 
 #about .content h3 {
   color: #777;
-  font-weight: 300;
+  /* color: #333; */
+  font-weight: 400;
   font-size: 18px;
-  line-height: 26px;
-  font-style: italic;
+  /* line-height: 26px; */
+  /* font-style: italic; */
 }
 
 #about .content p {
   line-height: 26px;
+  font-size: 17px;
 }
 
 #about .content p:last-child {
@@ -644,7 +676,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .content i {
-  font-size: 20px;
+  font-size: 18px;
   padding-right: 4px;
   color: #bc42da;
 }
@@ -656,6 +688,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .content ul li {
   padding-bottom: 10px;
+  font-size: 17px;
 }
 
 /* Product Featuress Section
